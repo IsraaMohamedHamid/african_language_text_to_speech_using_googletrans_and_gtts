@@ -20,7 +20,7 @@ def text_to_speech(text, target_lang, output_file):
     display(audio)
 
 def main():
-    st.title("Text Translator and Text-to-Speech")
+    st.title("Text-to-Speech")
 
     # Input text from the user
     text = st.text_area("Enter text to translate and read aloud:", value="")
